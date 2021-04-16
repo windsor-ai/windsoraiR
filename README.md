@@ -11,18 +11,16 @@ The goal of `windsoR` is to help `R` users to access the `Windsor.ai`
 
 ## Installation
 
-You can install the released version of windsoR from
+~~You can install the released version of windsoraiR from~~
 [CRAN](https://CRAN.R-project.org) with:
 
-``` r
-install.packages("windsoR")
-```
+~~install.packages(“windsoraiR”)~~
 
 And the development version from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("novica/windsoR")
+remotes::install_github("windsor-ai/windsoraiR")
 ```
 
 ## Usage

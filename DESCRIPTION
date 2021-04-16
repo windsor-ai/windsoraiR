@@ -1,0 +1,27 @@
+Type: Package
+Package: windsoraiR
+Title: Access the Windsor.ai API through 'R'
+Version: 0.1.0
+Authors@R: 
+    c(person(given = "Novica",
+             family = "Nakov",
+             role = c("aut", "cre"),
+             email = "nnovica@gmail.com"),
+      person(given = "Windsor.ai",
+             role = "cph"))
+Description: An R package to access the [Windsor.ai](https://www.windsor.ai/api-documentation/) API. 
+License: MIT + file LICENSE
+URL: https://github.com/discindo/windsoR/
+BugReports: https://github.com/discindo/windsoR/issues/
+Imports: 
+    jsonlite (>= 1.7.2)
+VignetteBuilder: 
+    knitr
+Encoding: UTF-8
+Language: en-US
+LazyData: true
+RoxygenNote: 7.1.1
+Roxygen: list(markdown = TRUE)
+Suggests: 
+    knitr,
+    rmarkdown

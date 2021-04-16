@@ -1,13 +1,19 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# windsoR
+# windsoraiR
 
 <!-- badges: start -->
 <!-- badges: end -->
 
 The goal of `windsoR` is to help `R` users to access the `Windsor.ai`
 `API` in a convenient way from `R`
+
+[Windsor.ai](https://www.windsor.ai/) allows to get marketing data from
+any platform. It beautifully simplifies the complexity of dealing with
+multiple platforms, unlocking unified, valuable information in a format
+that matters to you. For more details checkout
+[onboard.windsor.ai](https://onboard.windsor.ai/).
 
 ## Installation
 

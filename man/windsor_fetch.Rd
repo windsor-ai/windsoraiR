@@ -35,6 +35,7 @@ A function to fetch data from the Windsor.ai API
 \examples{
 \dontrun{
 windsor_fetch <- (api_key = "your api key",
+connector = "all",
 date_preset = "last_7d",
 fields = c("source", "campaign", "clicks",
            "medium", "sessions", "spend"))

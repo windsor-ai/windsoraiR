@@ -17,10 +17,12 @@ that matters to you. For more details checkout
 
 ## Installation
 
-~~You can install the released version of windsoraiR from~~
+You can install the released version of windsoraiR from
 [CRAN](https://CRAN.R-project.org) with:
 
-~~install.packages(“windsoraiR”)~~
+``` r
+install.packages("windsoraiR")
+```
 
 And the development version from [GitHub](https://github.com/) with:
 
@@ -31,9 +33,63 @@ remotes::install_github("windsor-ai/windsoraiR")
 
 ## Features
 
--   Easy access to marketing data via windsor.ai APIs
+:heavy\_check\_mark: Easy access to marketing data via windsor.ai APIs
 
--   Lightweight (single dependency - jsonlite)
+:heavy\_check\_mark: Lightweight (single dependency - jsonlite)
+
+## Supported marketing and platforms
+
+:heavy\_check\_mark: Google Analytics
+
+:heavy\_check\_mark: Google Ads
+
+:heavy\_check\_mark: Facebook Ads
+
+:heavy\_check\_mark: Facebook organic
+
+:heavy\_check\_mark: Bing Ads
+
+:heavy\_check\_mark: Linkedin Ads
+
+:heavy\_check\_mark: Hubspot
+
+:heavy\_check\_mark: Salesforce
+
+:heavy\_check\_mark: Google search console
+
+:heavy\_check\_mark: Criteo
+
+:heavy\_check\_mark: Snapchat
+
+:heavy\_check\_mark: Tiktok
+
+:heavy\_check\_mark: Appnexus
+
+:heavy\_check\_mark:Campaign Manager
+
+:heavy\_check\_mark: Twitter
+
+:heavy\_check\_mark: Awin
+
+:heavy\_check\_mark: Adroll
+
+:heavy\_check\_mark: Shopify
+
+:heavy\_check\_mark: Klaviyo
+
+:heavy\_check\_mark: Airtable
+
+:heavy\_check\_mark: Intercom
+
+:heavy\_check\_mark: Zoho
+
+:heavy\_check\_mark: Idealo
+
+:heavy\_check\_mark: Pinterest
+
+:heavy\_check\_mark: Appsflyer
+
+:heavy\_check\_mark: Adobe
 
 ## Usage
 
@@ -71,6 +127,7 @@ from the platforms you have connected.
 
 ``` r
 glimpse(df)
+
 Rows: 140
 Columns: 6
 $ data.campaign <chr> "Kampanja #1", "Myyntipäällikök…

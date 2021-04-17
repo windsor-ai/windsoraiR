@@ -25,11 +25,11 @@ The goal of `windsoraiR` is to help `R` users to access the `Windsor.ai` `API` i
 
 ## Installation
 
-~~You can install the released version of windsoraiR from~~ [CRAN](https://CRAN.R-project.org) with:
+You can install the released version of windsoraiR from [CRAN](https://CRAN.R-project.org) with:
 
-
-~~install.packages("windsoraiR")~~
-
+```r
+install.packages("windsoraiR")
+```
 
 
 And the development version from [GitHub](https://github.com/) with:
@@ -43,7 +43,61 @@ remotes::install_github("windsor-ai/windsoraiR")
 
 - Easy access to marketing data via windsor.ai APIs
 
-- Lightweight (single dependency - jsonlite)
+- Lightweight (single dependency - `jsonlite`)
+
+## Supported marketing and platforms
+
+- Google Analytics
+
+- Google Ads
+
+- Facebook Ads
+
+- Facebook organic
+
+- Bing Ads
+
+- Linkedin Ads
+
+- Hubspot
+
+- Salesforce
+
+- Google search console
+
+- Criteo
+
+- Snapchat
+
+- Tiktok
+
+- Appnexus
+
+-Campaign Manager
+
+- Twitter
+
+- Awin
+
+- Adroll
+
+- Shopify
+
+- Klaviyo
+
+- Airtable
+
+- Intercom
+
+- Zoho
+
+- Idealo
+
+- Pinterest
+
+- Appsflyer
+
+- Adobe
 
 ## Usage
 

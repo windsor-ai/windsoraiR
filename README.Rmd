@@ -118,7 +118,7 @@ The package currently has only one function `windsor_fetch` which will return a 
 Running: 
 
 ```r
-df <- windsor_fetch(api_key = "your api key",
+winsdor_data <- windsor_fetch(api_key = "your api key",
  connector = "all",
  date_preset = "last_7d",
  fields = c("source", "campaign", "clicks",
@@ -129,7 +129,7 @@ df <- windsor_fetch(api_key = "your api key",
 Will return a `data.frame` from the connector `all` that blends all data from the platforms you have connected. 
 
 ```r
-glimpse(df)
+glimpse(winsdor_data)
 
 Rows: 140
 Columns: 6

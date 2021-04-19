@@ -33,63 +33,63 @@ remotes::install_github("windsor-ai/windsoraiR")
 
 ## Features
 
-:heavy\_check\_mark: Easy access to marketing data via windsor.ai APIs
+-   Easy access to marketing data via windsor.ai APIs
 
-:heavy\_check\_mark: Lightweight (single dependency - jsonlite)
+-   Lightweight (single dependency - `jsonlite`)
 
 ## Supported marketing and platforms
 
-:heavy\_check\_mark: Google Analytics
+-   Google Analytics
 
-:heavy\_check\_mark: Google Ads
+-   Google Ads
 
-:heavy\_check\_mark: Facebook Ads
+-   Facebook Ads
 
-:heavy\_check\_mark: Facebook organic
+-   Facebook organic
 
-:heavy\_check\_mark: Bing Ads
+-   Bing Ads
 
-:heavy\_check\_mark: Linkedin Ads
+-   Linkedin Ads
 
-:heavy\_check\_mark: Hubspot
+-   Hubspot
 
-:heavy\_check\_mark: Salesforce
+-   Salesforce
 
-:heavy\_check\_mark: Google search console
+-   Google search console
 
-:heavy\_check\_mark: Criteo
+-   Criteo
 
-:heavy\_check\_mark: Snapchat
+-   Snapchat
 
-:heavy\_check\_mark: Tiktok
+-   Tiktok
 
-:heavy\_check\_mark: Appnexus
+-   Appnexus
 
-:heavy\_check\_mark:Campaign Manager
+-Campaign Manager
 
-:heavy\_check\_mark: Twitter
+-   Twitter
 
-:heavy\_check\_mark: Awin
+-   Awin
 
-:heavy\_check\_mark: Adroll
+-   Adroll
 
-:heavy\_check\_mark: Shopify
+-   Shopify
 
-:heavy\_check\_mark: Klaviyo
+-   Klaviyo
 
-:heavy\_check\_mark: Airtable
+-   Airtable
 
-:heavy\_check\_mark: Intercom
+-   Intercom
 
-:heavy\_check\_mark: Zoho
+-   Zoho
 
-:heavy\_check\_mark: Idealo
+-   Idealo
 
-:heavy\_check\_mark: Pinterest
+-   Pinterest
 
-:heavy\_check\_mark: Appsflyer
+-   Appsflyer
 
-:heavy\_check\_mark: Adobe
+-   Adobe
 
 ## Usage
 
@@ -114,7 +114,7 @@ it:
 Running:
 
 ``` r
-df <- windsor_fetch(api_key = "your api key",
+winsdor_data <- windsor_fetch(api_key = "your api key",
  connector = "all",
  date_preset = "last_7d",
  fields = c("source", "campaign", "clicks",
@@ -126,7 +126,7 @@ Will return a `data.frame` from the connector `all` that blends all data
 from the platforms you have connected.
 
 ``` r
-glimpse(df)
+glimpse(winsdor_data)
 
 Rows: 140
 Columns: 6

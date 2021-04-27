@@ -51,7 +51,7 @@ Lets take a peek at the data we just downloaded to get a better idea about the s
 str(my_data)
 ```
 
-## Analyzing our Facebook  and Google ad campain data 
+## Analyzing our Facebook  and Google ad campaign data 
 
 First, lets try to find the campaigns with most clicks. To do this, we'll filter only those rows that have clicks, then group the dataset by campaign (`data.campaign` column) and sum up the click count per campaign.
 

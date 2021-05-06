@@ -16,7 +16,7 @@ A data frame with 1677 rows and 6 variables:
 }
 }
 \source{
-\url{http://www.windsor.ai/}
+\url{https://www.windsor.ai/}
 }
 \usage{
 my_data

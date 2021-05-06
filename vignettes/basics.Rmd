@@ -22,17 +22,6 @@ The goal here is to outline in a couple of paragraphs and few lines of code some
 
 After we create an account at Windsor.ai and obtain an API key, collecting our data from Windsor to R is as easy as:
 
-```{r, echo = FALSE}
-library(windsoraiR)
-my_data <- 
-  windsor_fetch(
-  api_key = "c0eae325c8fb85a0c256da2cd08a27e81972",
-  date_preset = "last_7d",
-  fields = c("source", "campaign", "clicks",
-             "medium", "sessions", "spend")
-)
-```
-
 
 ```{r, eval = FALSE}
 library(windsoraiR)
@@ -46,6 +35,10 @@ my_data <-
 ```
 
 Lets take a peek at the data we just downloaded to get a better idea about the structure and type of information included. 
+
+```{r, echo = FALSE}
+library(windsoraiR)
+```
 
 ```{r}
 str(my_data)

@@ -1,7 +1,7 @@
 Type: Package
 Package: windsoraiR
 Title: Access the 'Windsor.ai' API 
-Version: 0.1.1
+Version: 0.1.2
 Authors@R: 
     c(person(given = "Novica",
              family = "Nakov",
@@ -31,3 +31,4 @@ Suggests:
     ggplot2,
     tidyr, 
     curl
+LazyData: true

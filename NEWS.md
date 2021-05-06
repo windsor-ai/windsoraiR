@@ -1,3 +1,7 @@
+# windsoraiR 0.1.2
+
+* Added sample data for the vignette.
+
 # windsoraiR 0.1.1
 
 * Added a more meaningful description.

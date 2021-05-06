@@ -12,5 +12,5 @@
 #'   \item{data.source}{source of the data (google, facebook, etc.)}
 #'   \item{googlesheets}{googlesheets id}
 #' }
-#' @source \url{http://www.windsor.ai/}
+#' @source \url{https://www.windsor.ai/}
 "my_data"

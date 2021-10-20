@@ -40,6 +40,10 @@ windsor_fetch <-
       )
     )
 
-    as.data.frame(json_data)
+    if (typeof(json_data) == "list" && "data" %in% names(json_data)) {
+      return(as.data.frame(json_data$data))
+    }
+
+    stop(paste("Invalid response from the API:", json_data))
 
 }

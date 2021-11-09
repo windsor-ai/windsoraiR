@@ -1,14 +1,14 @@
 Type: Package
 Package: windsoraiR
 Title: Access the 'Windsor.ai' API 
-Version: 0.1.2
+Version: 0.1.3
 Authors@R: 
     c(person(given = "Novica",
              family = "Nakov",
-             role = c("aut", "cre"),
+             role = c("aut"),
              email = "nnovica@gmail.com"),
       person(given = "Windsor.ai",
-             role = "cph", 
+             role = c("cph", "cre", "aut"), 
              email = "admin@windsor.ai"))
 Description: Collect multichannel marketing data from sources such as Google analytics, Facebook Ads, and many others using the 'Windsor.ai' API <https://www.windsor.ai/api-fields/>.
 License: MIT + file LICENSE
@@ -22,9 +22,10 @@ VignetteBuilder:
     knitr
 Encoding: UTF-8
 Language: en-US
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
 Roxygen: list(markdown = TRUE)
 Suggests: 
+    markdown,
     knitr,
     rmarkdown,
     dplyr,

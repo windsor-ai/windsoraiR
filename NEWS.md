@@ -1,5 +1,9 @@
 # windsoraiR 0.1.2
 
+* Updated to work with the new nested data structure
+
+# windsoraiR 0.1.2
+
 * Added sample data for the vignette.
 
 # windsoraiR 0.1.1

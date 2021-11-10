@@ -4,11 +4,11 @@
 #' @param api_key Your api key to access Windsor.ai API
 #' @param connector A connector for the data source.
 #' The connector "all" connector blends data from all sources
-#' See https://www.windsor.ai/api-fields/ for details.
+#' See https://windsor.ai/api-fields/ for details.
 #' @param date_preset the period for which data is fetched from the API.
-#' See https://www.windsor.ai/api-fields/ for details
+#' See https://windsor.ai/api-fields/ for details
 #' @param fields The fields fetched from the API for a given connector
-#' See https://www.windsor.ai/api-fields/ for details.
+#' See https://windsor.ai/api-fields/ for details.
 #'
 #' @return A data frame containing the desired data.
 #' @export

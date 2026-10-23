@@ -1,7 +1,7 @@
 #' Sample data from the Windsor API.
 #'
 #' A dataset containing sample gooole and facebook ads data
-#' fetched from windsor.ai API. See more at: https://windsor.ai/api-fields/
+#' fetched from windsor.ai API. See more at: https://windsor.ai/api-documentation/
 #'
 #' @format A data frame with 1677 rows and 6 variables:
 #' \describe{

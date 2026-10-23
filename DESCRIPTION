@@ -14,7 +14,7 @@ Authors@R:
       person(given = "Windsor.ai",
              role = "cph", 
              email = "admin@windsor.ai"))
-Description: Collect multichannel marketing data from sources such as Google analytics, Facebook Ads, and many others using the 'Windsor.ai' API <https://windsor.ai/api-fields/>.
+Description: Collect multichannel marketing data from sources such as Google analytics, Facebook Ads, and many others using the 'Windsor.ai' API <https://windsor.ai/api-documentation/>.
 License: MIT + file LICENSE
 URL: https://github.com/windsor-ai/windsoraiR/
 BugReports: https://github.com/windsor-ai/windsoraiR/issues

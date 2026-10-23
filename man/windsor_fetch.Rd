@@ -17,13 +17,13 @@ windsor_fetch(
 
 \item{connector}{A connector for the data source.
 The connector "all" connector blends data from all sources
-See https://www.windsor.ai/api-fields/ for details.}
+See https://windsor.ai/api-fields/ for details.}
 
 \item{date_preset}{the period for which data is fetched from the API.
-See https://www.windsor.ai/api-fields/ for details}
+See https://windsor.ai/api-fields/ for details}
 
 \item{fields}{The fields fetched from the API for a given connector
-See https://www.windsor.ai/api-fields/ for details.}
+See https://windsor.ai/api-fields/ for details.}
 }
 \value{
 A data frame containing the desired data.

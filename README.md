@@ -141,4 +141,4 @@ $ googlesheets  <chr> "'spreadsheet_id'", "'spreadshe…
 ```
 
 For more details see the API documentation at
-<https://windsor.ai/api-fields/>.
+<https://windsor.ai/api-documentation/>.

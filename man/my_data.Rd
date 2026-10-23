@@ -23,6 +23,6 @@ my_data
 }
 \description{
 A dataset containing sample gooole and facebook ads data
-fetched from windsor.ai API. See more at: https://windsor.ai/api-fields/
+fetched from windsor.ai API. See more at: https://windsor.ai/api-documentation/
 }
 \keyword{datasets}

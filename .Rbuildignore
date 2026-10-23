@@ -4,3 +4,4 @@
 ^LICENSE\.md$
 ^cran-comments\.md$
 ^CRAN-RELEASE$
+^updating_cran_package\.md$

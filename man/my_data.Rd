@@ -16,13 +16,13 @@ A data frame with 1677 rows and 6 variables:
 }
 }
 \source{
-\url{https://www.windsor.ai/}
+\url{https://windsor.ai/}
 }
 \usage{
 my_data
 }
 \description{
 A dataset containing sample gooole and facebook ads data
-fetched from windsor.ai API. See more at: https://www.windsor.ai/api-fields/
+fetched from windsor.ai API. See more at: https://windsor.ai/api-fields/
 }
 \keyword{datasets}

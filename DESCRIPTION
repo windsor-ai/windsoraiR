@@ -3,12 +3,16 @@ Package: windsoraiR
 Title: Access the 'Windsor.ai' API 
 Version: 0.1.3
 Authors@R: 
-    c(person(given = "Novica",
+    c(person(given = "Octavian",
+             family = "Corlade",
+             role = c("aut", "cre"),
+             email = "octavian.corlade@gmail.com"),
+      person(given = "Novica",
              family = "Nakov",
              role = c("aut"),
              email = "nnovica@gmail.com"),
       person(given = "Windsor.ai",
-             role = c("cph", "cre", "aut"), 
+             role = "cph", 
              email = "admin@windsor.ai"))
 Description: Collect multichannel marketing data from sources such as Google analytics, Facebook Ads, and many others using the 'Windsor.ai' API <https://windsor.ai/api-fields/>.
 License: MIT + file LICENSE
@@ -22,7 +26,6 @@ VignetteBuilder:
     knitr
 Encoding: UTF-8
 Language: en-US
-RoxygenNote: 7.1.2
 Roxygen: list(markdown = TRUE)
 Suggests: 
     markdown,
@@ -33,3 +36,4 @@ Suggests:
     tidyr, 
     curl
 LazyData: true
+Config/roxygen2/version: 8.1.1

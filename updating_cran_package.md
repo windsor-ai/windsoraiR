@@ -1,13 +1,17 @@
+### Updating the package on CRAN
 
-### Updating the package on cran
+1. Bump `Version` in `DESCRIPTION`.
+2. Add the changes to `NEWS.md` under a heading for the new version.
+3. Update `README.Rmd` if needed, then knit it to produce `README.md`.
+4. Update `cran-comments.md` with the check results and anything CRAN reviewers should know.
+5. In R, from the repository folder:
+   ```r
+   devtools::document()
+   devtools::check()           # 0 errors, 0 warnings
+   devtools::check_win_devel() # optional, results are emailed to the maintainer
+   devtools::release()
+   ```
+   `devtools::release()` asks a few questions and then uploads the package.
+6. CRAN emails the maintainer a link to confirm the upload. Nothing happens until it is clicked.
+7. Once CRAN accepts the release, tag it (`git tag v<version>`) and push the tag.
 
-1. Edit the DESCRIPTION to update version number, depending on the changes.
-2. Edit NEWS.md to briefly explain the changes.
-3. Updated README.Rmd if needed
-4. Knit README.Rmd to produce README.md
-5. Run devtools::check() and devtools::document()
-if everything goes well then run
-devtools::release()
-it is a straight forward process then where you get to answer some question and do some additional steps that devtools::release() reminds you of.
-if you want to submit to CRAN finally after this (this is the last step in the devtools::release() process), then the package maintainer has to be changed.
-Add yourself as the new maintainer in the DESCRIPTION file, with role = c("aut", "cre"), and make the former maintainer aut only.
